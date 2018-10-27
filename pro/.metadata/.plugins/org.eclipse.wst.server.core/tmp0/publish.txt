@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Oct 01 13:26:06 CST 2018
+org.eclipse.jst.j2ee.server\:/binary\:F\:\\mvnRepository\\org\\springframework\\spring-web\\4.3.10.RELEASE\\spring-web-4.3.10.RELEASE.jar=F\:\\ProgramFiles\\apache-tomcat-7.0.88\\webapps\\vue-springmvc\\WEB-INF\\lib\\spring-web-4.3.10.RELEASE.jar
+org.eclipse.jst.j2ee.server\:vue-springmvc=F\:\\ProgramFiles\\apache-tomcat-7.0.88\\webapps\\vue-springmvc

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 4 resources" deleteContents="true" description="Delete 4 resources" element1="/zhongletao-manager-mapper" element2="/zhongletao-manager-pojo" element3="/zhongletao-manager-service" element4="/zhongletao-manager-web" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1526741570284"/>&#x0A;<refactoring comment="Delete 3 resources" deleteContents="true" description="Delete 3 resources" element1="/zhongletao-common" element2="/zhongletao-manager" element3="/zhongletao-parent" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1526741580028"/>
+</session>

@@ -37,4 +37,7 @@ public class HelloController {
     public String cry(@RequestParam(value="idStr", required=false, defaultValue = "0") Integer id){
         return "id: " + id;
     }
+
+
+
 }

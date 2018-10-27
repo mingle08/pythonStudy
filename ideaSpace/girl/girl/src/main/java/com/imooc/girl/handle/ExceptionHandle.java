@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
+
 @ControllerAdvice
 public class ExceptionHandle {
 
@@ -25,5 +27,15 @@ public class ExceptionHandle {
             return ResultUtil.fail(-1, "未知错误！");
         }
 
+    }
+
+    /**
+     * 方法说明：判断是否是ajax请求
+     * @param httpRequest
+     * @return
+     */
+    public static boolean isAjax(HttpServletRequest httpRequest){
+        String header = httpRequest.getHeader("X-Requested-With");
+        return (header!= null && "XMLHttpRequest".equals(header));
     }
 }
