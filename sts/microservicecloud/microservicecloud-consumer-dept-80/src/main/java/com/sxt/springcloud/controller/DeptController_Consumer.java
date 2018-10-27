@@ -13,8 +13,8 @@ import com.sxt.springcloud.entities.Dept;
 @RestController
 public class DeptController_Consumer {
 
-	public static final String REST_URL_PREFIX = "http://localhost:8001";
-	
+//	public static final String REST_URL_PREFIX = "http://localhost:8001";
+	public static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 	/**
 	 * 使用restTemplate访问restful接口非常的简单粗暴无脑
 	 * url，requestMap, ResponseBean.class 这三个参数分别代表：
