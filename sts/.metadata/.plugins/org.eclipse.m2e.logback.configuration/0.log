@@ -1,14 +1,1 @@
-2018-10-27 11:11:40,633 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
-2018-10-27 11:13:35,493 [Worker-6: Creating project "microservicecloud"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.sgg.springcloud:microservicecloud:0.0.1-SNAPSHOT @ E:\gitRepo\sts\microservicecloud\pom.xml.
-2018-10-27 11:14:54,571 [Worker-2: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.sgg.springcloud:microservicecloud:0.0.1-SNAPSHOT @ E:\gitRepo\sts\microservicecloud\pom.xml.
-2018-10-27 11:17:44,213 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
-2018-10-27 11:17:44,259 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.sgg.springcloud:microservicecloud:0.0.1-SNAPSHOT @ E:\gitRepo\sts\microservicecloud\pom.xml.
-2018-10-27 11:17:44,312 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
-2018-10-27 11:18:56,019 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
-2018-10-27 11:20:10,842 [Worker-7: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.sxt.springcloud:microservicecloud:0.0.1-SNAPSHOT @ E:\gitRepo\sts\microservicecloud\pom.xml.
-2018-10-27 11:20:20,502 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.sxt.springcloud:microservicecloud:0.0.1-SNAPSHOT @ E:\gitRepo\sts\microservicecloud\pom.xml.
-2018-10-27 11:25:34,308 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
-2018-10-27 11:27:52,481 [Worker-10: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.sgg.springcloud:microservicecloud:0.0.1-SNAPSHOT @ E:\gitRepo\sts\microservicecloud\pom.xml.
-2018-10-27 11:28:27,594 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
-2018-10-27 11:28:27,854 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.sgg.springcloud:microservicecloud:0.0.1-SNAPSHOT @ E:\gitRepo\sts\microservicecloud\pom.xml.
-2018-10-27 11:28:27,956 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2018-10-27 12:00:34,258 [Worker-6: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
