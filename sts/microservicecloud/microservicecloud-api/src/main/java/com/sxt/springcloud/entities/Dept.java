@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 
+@SuppressWarnings("serial")
 @NoArgsConstructor
 @Data
 @Accessors(chain=true)
