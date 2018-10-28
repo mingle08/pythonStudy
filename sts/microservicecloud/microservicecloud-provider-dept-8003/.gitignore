@@ -1,47 +1,65 @@
-##ignore this file##
-/target/ 
-.classpath
-.project
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-.settings     
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-##filter databfile、sln file##
-*.mdb  
-*.ldb  
-*.sln    
-##class file##
-*.com  
-*.class  
-*.dll  
-*.exe  
-*.o  
-*.so  
+# Logs and databases #
+######################
+*.log
 
-# compression file
-*.7z  
-*.dmg  
-*.gz  
-*.iso  
-*.jar  
-*.rar  
-*.tar  
-*.zip  
-*.via
-*.tmp
-*.err 
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
 
-# OS generated files #  
-.DS_Store  
-.DS_Store?  
-._*  
-.Spotlight-V100  
-.Trashes  
-Icon?  
-ehthumbs.db  
-Thumbs.db  
+# Editor Files #
+################
+*~
+*.swp
 
-### IntelliJ IDEA ###
+# Gradle Files #
+################
+.gradle
+
+# Build output directies
+/target
+*/target
+/build
+*/build
+*/bin
+
+# IntelliJ specific files/directories
+out
 .idea
+*.ipr
 *.iws
 *.iml
-*.ipr
+atlassian-ide-plugin.xml
+
+# Eclipse specific files/directories
+.classpath
+.project
+.settings
+.metadata
+
+# NetBeans specific files/directories
+.nbattrs
