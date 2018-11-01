@@ -1,4 +1,4 @@
-package study.lee_study.p044;
+package algo.leetCode;
 /**
  *  输入:
         s = "adceb"

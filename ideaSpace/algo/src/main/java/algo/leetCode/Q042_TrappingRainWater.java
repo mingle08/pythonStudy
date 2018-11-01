@@ -1,4 +1,4 @@
-package study.lee_study.p042;
+package algo.leetCode;
 
 public class Q042_TrappingRainWater {
 

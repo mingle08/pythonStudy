@@ -1,4 +1,4 @@
-package study.lee_study.p040;
+package algo.leetCode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

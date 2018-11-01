@@ -1,4 +1,4 @@
-package study.lee_study.p045;
+package algo.leetCode;
 
 public class Q045_JumpGameII {
 

@@ -1,4 +1,4 @@
-package study.lee_study.p046;
+package algo.leetCode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +32,7 @@ public class Q046_Permutations {
                 if((!array.contains(nums[i]))){
                     array.add(nums[i]);
                     backtracking(list, array, t+1, n, nums);
-                    array.remove(array.size()-1);
+                    array.remove(array.size()-1);  // 去掉最后面的元素
                 }
             }
         }

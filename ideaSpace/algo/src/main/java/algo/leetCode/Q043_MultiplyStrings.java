@@ -1,4 +1,4 @@
-package study.lee_study.p043;
+package algo.leetCode;
 /**
  *                 4 5      (4   index i=0)
  *               1 2 3      (2   index j=1)

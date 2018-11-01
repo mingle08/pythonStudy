@@ -1,4 +1,4 @@
-package study.lee_study.p041;
+package algo.leetCode;
 
 public class Q041_FirstMissingPositive {
 
