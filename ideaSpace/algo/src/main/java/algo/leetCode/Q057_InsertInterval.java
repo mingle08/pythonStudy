@@ -1,4 +1,6 @@
-package algo.leetcode;
+package algo.leetCode;
+
+import algo.leetCode.Interval;
 
 import java.util.ArrayList;
 import java.util.Collections;

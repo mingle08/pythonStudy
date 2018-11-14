@@ -1,4 +1,4 @@
-package algo.leetcode;
+package algo.leetCode;
 
 public class Q058_LengthOfLastWord {
 

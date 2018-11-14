@@ -1,4 +1,4 @@
-package algo.leetcode;
+package algo.leetCode;
 
 public class Q053_MaximumSubarray {
 
