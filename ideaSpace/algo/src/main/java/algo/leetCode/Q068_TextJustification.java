@@ -5,7 +5,10 @@ import java.util.List;
 
 public class Q068_TextJustification {
     public static void main(String[] args){
-
+        Q068_TextJustification solution = new Q068_TextJustification();
+        String[] strs = {"This", "is", "an", "example", "of", "text", "justification."};
+        List<String> list = solution.fullJustify(strs, 16);
+        System.out.println(list.size());
     }
 
     public List<String> fullJustify(String[] words, int maxWidth) {
@@ -19,7 +22,7 @@ public class Q068_TextJustification {
             //count是上一次计算的单词的长度，words[i].length()是当前尝试放的一个单词的长度，
             //假设当前放上了这个单词，那么这一行单词跟单词间的间隔数就是i-last
             //判断这些总的长度加起来是不是大于L（超行数了）
-            if(count + words[i].length() + (i-last) > maxWidth){        //超过了单行最多数
+                if(count + words[i].length() + (i-last) > maxWidth){        //超过了单行最多数
                 int space = 0;      //平均的空格数
                 int extraSpace = 0;      //多余的空格数
                 if(i-last-1 >0){
