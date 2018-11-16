@@ -41,20 +41,5 @@ public class Q069_SqrtX {
         }
         return x;
     }
-    
-    /**
-       以雷神之锤III程序为蓝本可以写出比sqrt()更强大的求平方根函数：
-    */
-    int sqrt2(float x) {   
-        if(x == 0) return 0;   
-        float result = x;   
-        float xhalf = 0.5f*result;   
-        int i = *(int*)&result;   
-        i = 0x5f375a86- (i>>1); // what the fuck?   
-        result = *(float*)&i;   
-        result = result*(1.5f-xhalf*result*result); // Newton step, repeating increases accuracy   
-        result = result*(1.5f-xhalf*result*result);   
-        return 1.0f/result;   
-    }
 
 }
