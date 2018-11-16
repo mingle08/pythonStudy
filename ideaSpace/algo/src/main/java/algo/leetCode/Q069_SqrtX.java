@@ -12,6 +12,11 @@ package algo.leetCode;
  3、接下来重复2，即过点（x1,f(x1)）做曲线的切线，切线方程是y2-f(x1)=f(x1)'(x2-x1) - t ，令y2=0,解得x2=x1 / 2 +t /(2*x1)
 
         接着重复2，一直到 f(xn) 趋向于0，而f(xn)=xn^2-t=0，所以最后近似解就是xn
+        
+        
+  设r是f(x) = 0的根，选取x0作为r初始近似值，过点（x0,f(x0)）做曲线y = f(x)的切线L，L的方程为y = f(x0)+f'(x0)(x-x0)，求出L与x轴交点的横坐标 x1 = x0-f(x0)/f'(x0)，称x1为r的一次近似值。
+
+  过点（x1,f(x1)）做曲线y = f(x)的切线，并求该切线与x轴交点的横坐标 x2 = x1-f(x1)/f'(x1)，称x2为r的二次近似值。重复以上过程，得r的近似值序列，其中x(n+1)=x(n)－f(x(n))/f'(x(n))，称为r的n+1次近似值，上式称为牛顿迭代公式。
  */
 public class Q069_SqrtX {
     public static void main(String[] args){
@@ -35,6 +40,21 @@ public class Q069_SqrtX {
             y = (x + c / x) / 2;
         }
         return x;
+    }
+    
+    /**
+       以雷神之锤III程序为蓝本可以写出比sqrt()更强大的求平方根函数：
+    */
+    int sqrt2(float x) {   
+        if(x == 0) return 0;   
+        float result = x;   
+        float xhalf = 0.5f*result;   
+        int i = *(int*)&result;   
+        i = 0x5f375a86- (i>>1); // what the fuck?   
+        result = *(float*)&i;   
+        result = result*(1.5f-xhalf*result*result); // Newton step, repeating increases accuracy   
+        result = result*(1.5f-xhalf*result*result);   
+        return 1.0f/result;   
     }
 
 }
