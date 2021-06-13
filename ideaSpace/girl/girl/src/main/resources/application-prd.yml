@@ -1,7 +1,0 @@
-server:
-  port: 8088
-
-girl:
-  cupSize: F
-  age: 24
-  content: "cupSize: ${cupSize}, age: ${age}"
