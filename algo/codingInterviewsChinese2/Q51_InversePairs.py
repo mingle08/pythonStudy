@@ -6,7 +6,7 @@ class Solution:
         def mergeSort(L, R):
             if L >= R:
                 return 0
-            m = L + (R - L) / 2
+            m = L + (R - L) // 2
             cnt = mergeSort(L, m) + mergeSort(m + 1, R)
             i, j = L, m + 1
             pos = L
@@ -31,3 +31,9 @@ class Solution:
         n = len(nums)
         tmp = [0] * n
         return mergeSort(0, n - 1)
+
+
+if __name__ == '__main__':
+    s = Solution();
+    numbers = [9, 9, 0, 5, 2, 5, 8, 3]
+    print(s.reversePairs(numbers))
